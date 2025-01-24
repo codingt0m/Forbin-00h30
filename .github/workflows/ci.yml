@@ -18,4 +18,4 @@ jobs:
           distribution: 'temurin' # Utilise Temurin comme distribution
 
       - name: Build with Maven
-        run: mvn -B package --file demo-app/pom.xml
+        run: mvn -B package --file forbin-mvn/pom.xml
